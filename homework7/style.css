@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: jakarta;
+    src: url(fonts/jakarta.ttf);
+}
+
+body{
+    font-family: 'jakarta', jakarta;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    gap: 20px;
+    padding-top: 60px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1500px;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.card-relative{
+    position: relative;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.content-absolute{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    max-width: 600px;
+    position:absolute;
+    bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.189);
+    border-left: 1px solid rgba(0, 0, 0, 0.189);
+    border-right: 1px solid rgba(0, 0, 0, 0.189);
+    padding: 10px;
+}
+
+img{
+    max-width: 400px;
+    border-radius: 10px;
+    
+}
+
+.border-text{
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding: 10px;
+    color: purple;
+}
+
+.more-projects{
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.chat{
+    font-size: 50px;
+    position: sticky;
+    bottom: 50px;
+    left: 50px;
+    text-align: right;
+}
