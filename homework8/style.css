@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: jakarta;
+    src: url(fonts/jakarta.ttf);
+}
+
+body{
+    font-family: 'jakarta', jakarta;
+}
+
+.container{
+    padding-top: 50px;
+    max-width: 1400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.title2{
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+h4{
+    color: rgb(77, 197, 195);
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    top: -15px;
+    left: 25%;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 80%;
+}
+
+.element-content{
+    max-width: 170px;
+    position: absolute;
+    top: 45px;
+    left: 17%;
+    text-align: left;
+    font-size: 14px;
+}
+
+.second-section{
+    margin: 0 auto;
+    padding-top: 50px;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.second-container1{
+    padding-bottom: 100px;
+}
+
+.design1 img{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.design1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.trial{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    max-width: fit-content;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.click{
+    display: flex;
+    justify-content: right;
+    padding-bottom: 25px;
+}
+
+/* mobile brakpoint */
+
+@media only screen and (max-width: 768px) {
+    .second-section{
+        flex-direction: column;
+    }
+
+    .card{
+        flex-direction: column;
+    }
+
+    .element{
+        padding-bottom: 20px;
+    }
+
+    .design1 img{
+        width: 300px;
+    }
+}
