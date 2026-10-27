@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.animation {
+    display: flex;
+    padding-top: 100px;
+    margin: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.dog {
+    font-size: 70px;
+    position: relative;
+    animation: dog 2s infinite;
+    
+}
+
+.bone {
+    font-size: 70px;
+    position: relative;
+    animation: bone 1.7s infinite;
+}
+
+@keyframes dog {
+    0%{
+        left: 0;
+    }
+
+    50%{
+        left: 1110px;
+    }
+
+    100%{
+        left: 0;
+    }
+}
+
+@keyframes bone {
+    0%{
+        right: 0;
+    }
+
+    25%{
+        right: 0;
+    }
+
+    50%{
+        right: 0;
+    }
+
+    75%{
+        right: 0;
+    }
+
+    100%{
+        right: 1110px;
+    }
+}
