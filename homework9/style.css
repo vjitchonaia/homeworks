@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: jakarta;
+    src: url(fonts/jakarta.ttf);
+}
+
+body{
+    font-family: 'jakarta', jakarta;
+}
+
+.header{
+    margin: 50px 20px;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 40px;
+}
+
+.sponsors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.sponsors img{
+    height: 50px;
+    width: auto;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.row img{
+    height: 400px;
+    width: auto;
+}
+
+.button{
+    background-color: #4F9CF9;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 20px 40px;
+    color: white;
+}
+
+.button:hover{
+    background-color: white;
+    color: #4F9CF9;
+    transition: 1s;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 500px;
+    color: white;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.applications{
+    margin-top: 70px;
+    background-image: url('images/cover.jfif');
+    padding: 50px 0;
+}
