@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: jakarta;
+    src: url(fonts/jakarta.ttf);
+}
+
+body{
+    font-family: 'jakarta', jakarta;
+}
+
+.container{
+    width: 100%;
+    max-width: 600px;
+    min-height: 800px;
+    margin: 20px auto;
+    background-color: #eef5ff;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    background-color: #00179f;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    position: absolute;
+    top: -125px;
+    left: -125px;
+}
+
+.box2{
+    background-color: #00179f;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    position: absolute;
+    top: -125px;
+    right: -125px;
+
+}
+
+.box3{
+    background-color: #00179f;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -125px;
+    left: -125px;
+
+}
+
+.box4{
+    background-color: #00179f;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -125px;
+    right: -125px;
+
+}
+
+.card{
+    background-color: white;
+    width: 530px;
+    height: 730px;
+    position: absolute;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.form{
+    padding-bottom: 10px;
+}
+
+.form h4{
+    padding: 8px 10px;
+    color: #00179f;
+}
+
+.form p{
+    padding-left: 10px;
+    padding-top: 7px;
+    font-size: 13px;
+}
+
+img{
+    width: 200px;
+    padding-top: 10px;
+}
+
+.detail{
+    display: flex;
+    font-size: 13px;
+}
+
+.detail2{
+    padding: 4px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.detail3{
+    padding: 4px 10px;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.detail2 input{
+    width: 260px;
+    height: 30px;
+}
+
+.form1{
+    display: flex;
+    gap: 15px;
+    padding: 8px 10px;
+}
+
+.pr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    padding: 2px 5px;
+}
+
+.form2{
+    display: flex;
+    max-width: fit-content;
+    gap: 5px;
+    padding: 8px 10px;
+    font-size: 13px;
+}
+
+.approval{
+    display: flex;
+}
+
+.approval input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 245px;
+    height: 30px;
+    margin-top: 4px;
+}
+
+.form3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail4{
+    display: flex;
+    padding: 4px 10px;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.detail4 input{
+    width: 180px;
+    height: 30px;
+}
